@@ -1,0 +1,360 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14109" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="JNi-Wo-IdK">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14088"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Home Screen View Controller-->
+        <scene sceneID="lAy-2C-0mr">
+            <objects>
+                <viewController restorationIdentifier="HomeScreenViewController" storyboardIdentifier="HomeScreenViewController" id="JNi-Wo-IdK" customClass="HomeScreenViewController" customModule="IOSHomeScreen" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="nKV-XU-oE9">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" spacing="5" translatesAutoresizingMaskIntoConstraints="NO" id="Wqg-gj-U9I">
+                                <rect key="frame" x="15" y="15" width="345" height="540"/>
+                                <subviews>
+                                    <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillEqually" translatesAutoresizingMaskIntoConstraints="NO" id="BTz-L4-kMU">
+                                        <rect key="frame" x="0.0" y="0.0" width="82.5" height="540"/>
+                                        <subviews>
+                                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="4Io-Hq-FVG" customClass="AppIconView" customModule="IOSHomeScreen" customModuleProvider="target">
+                                                <rect key="frame" x="0.0" y="0.0" width="82.5" height="108"/>
+                                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                                <userDefinedRuntimeAttributes>
+                                                    <userDefinedRuntimeAttribute type="number" keyPath="appIconType">
+                                                        <integer key="value" value="8"/>
+                                                    </userDefinedRuntimeAttribute>
+                                                </userDefinedRuntimeAttributes>
+                                            </view>
+                                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="mOd-xJ-KC8" customClass="AppIconView" customModule="IOSHomeScreen" customModuleProvider="target">
+                                                <rect key="frame" x="0.0" y="108" width="82.5" height="108"/>
+                                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                                <userDefinedRuntimeAttributes>
+                                                    <userDefinedRuntimeAttribute type="number" keyPath="appIconType">
+                                                        <integer key="value" value="9"/>
+                                                    </userDefinedRuntimeAttribute>
+                                                </userDefinedRuntimeAttributes>
+                                            </view>
+                                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="O3u-Cl-fcU" customClass="AppIconView" customModule="IOSHomeScreen" customModuleProvider="target">
+                                                <rect key="frame" x="0.0" y="216" width="82.5" height="108"/>
+                                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                                <userDefinedRuntimeAttributes>
+                                                    <userDefinedRuntimeAttribute type="number" keyPath="appIconType">
+                                                        <integer key="value" value="20"/>
+                                                    </userDefinedRuntimeAttribute>
+                                                </userDefinedRuntimeAttributes>
+                                            </view>
+                                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="6yN-6w-aPC" customClass="AppIconView" customModule="IOSHomeScreen" customModuleProvider="target">
+                                                <rect key="frame" x="0.0" y="324" width="82.5" height="108"/>
+                                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                                <userDefinedRuntimeAttributes>
+                                                    <userDefinedRuntimeAttribute type="number" keyPath="appIconType">
+                                                        <integer key="value" value="19"/>
+                                                    </userDefinedRuntimeAttribute>
+                                                </userDefinedRuntimeAttributes>
+                                            </view>
+                                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="31p-gW-DlJ" customClass="AppIconView" customModule="IOSHomeScreen" customModuleProvider="target">
+                                                <rect key="frame" x="0.0" y="432" width="82.5" height="108"/>
+                                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                                <userDefinedRuntimeAttributes>
+                                                    <userDefinedRuntimeAttribute type="number" keyPath="appIconType">
+                                                        <integer key="value" value="5"/>
+                                                    </userDefinedRuntimeAttribute>
+                                                </userDefinedRuntimeAttributes>
+                                            </view>
+                                        </subviews>
+                                    </stackView>
+                                    <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillEqually" translatesAutoresizingMaskIntoConstraints="NO" id="IYN-zl-TqI">
+                                        <rect key="frame" x="87.5" y="0.0" width="82.5" height="540"/>
+                                        <subviews>
+                                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="hN1-QJ-P5n" customClass="AppIconView" customModule="IOSHomeScreen" customModuleProvider="target">
+                                                <rect key="frame" x="0.0" y="0.0" width="82.5" height="108"/>
+                                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                                <userDefinedRuntimeAttributes>
+                                                    <userDefinedRuntimeAttribute type="number" keyPath="appIconType">
+                                                        <integer key="value" value="1"/>
+                                                    </userDefinedRuntimeAttribute>
+                                                </userDefinedRuntimeAttributes>
+                                            </view>
+                                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="9sR-oZ-fXn" customClass="AppIconView" customModule="IOSHomeScreen" customModuleProvider="target">
+                                                <rect key="frame" x="0.0" y="108" width="82.5" height="108"/>
+                                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                                <userDefinedRuntimeAttributes>
+                                                    <userDefinedRuntimeAttribute type="number" keyPath="appIconType">
+                                                        <integer key="value" value="2"/>
+                                                    </userDefinedRuntimeAttribute>
+                                                </userDefinedRuntimeAttributes>
+                                            </view>
+                                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Qnh-Wo-efC" customClass="AppIconView" customModule="IOSHomeScreen" customModuleProvider="target">
+                                                <rect key="frame" x="0.0" y="216" width="82.5" height="108"/>
+                                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                                <userDefinedRuntimeAttributes>
+                                                    <userDefinedRuntimeAttribute type="number" keyPath="appIconType">
+                                                        <integer key="value" value="13"/>
+                                                    </userDefinedRuntimeAttribute>
+                                                </userDefinedRuntimeAttributes>
+                                            </view>
+                                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="vgY-vp-Qlu" customClass="AppIconView" customModule="IOSHomeScreen" customModuleProvider="target">
+                                                <rect key="frame" x="0.0" y="324" width="82.5" height="108"/>
+                                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                                <userDefinedRuntimeAttributes>
+                                                    <userDefinedRuntimeAttribute type="number" keyPath="appIconType">
+                                                        <integer key="value" value="6"/>
+                                                    </userDefinedRuntimeAttribute>
+                                                </userDefinedRuntimeAttributes>
+                                            </view>
+                                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="o1M-tU-re6" customClass="AppIconView" customModule="IOSHomeScreen" customModuleProvider="target">
+                                                <rect key="frame" x="0.0" y="432" width="82.5" height="108"/>
+                                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                                <userDefinedRuntimeAttributes>
+                                                    <userDefinedRuntimeAttribute type="number" keyPath="appIconType">
+                                                        <integer key="value" value="17"/>
+                                                    </userDefinedRuntimeAttribute>
+                                                </userDefinedRuntimeAttributes>
+                                            </view>
+                                        </subviews>
+                                    </stackView>
+                                    <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillEqually" translatesAutoresizingMaskIntoConstraints="NO" id="PkH-7E-0hw">
+                                        <rect key="frame" x="175" y="0.0" width="82.5" height="540"/>
+                                        <subviews>
+                                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="OGi-uF-eUi" customClass="AppIconView" customModule="IOSHomeScreen" customModuleProvider="target">
+                                                <rect key="frame" x="0.0" y="0.0" width="82.5" height="108"/>
+                                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                                <userDefinedRuntimeAttributes>
+                                                    <userDefinedRuntimeAttribute type="number" keyPath="appIconType">
+                                                        <integer key="value" value="14"/>
+                                                    </userDefinedRuntimeAttribute>
+                                                </userDefinedRuntimeAttributes>
+                                            </view>
+                                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="HUh-vJ-pcV" customClass="AppIconView" customModule="IOSHomeScreen" customModuleProvider="target">
+                                                <rect key="frame" x="0.0" y="108" width="82.5" height="108"/>
+                                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                                <userDefinedRuntimeAttributes>
+                                                    <userDefinedRuntimeAttribute type="number" keyPath="appIconType">
+                                                        <integer key="value" value="21"/>
+                                                    </userDefinedRuntimeAttribute>
+                                                </userDefinedRuntimeAttributes>
+                                            </view>
+                                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="OLn-rv-xEP" customClass="AppIconView" customModule="IOSHomeScreen" customModuleProvider="target">
+                                                <rect key="frame" x="0.0" y="216" width="82.5" height="108"/>
+                                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                                <userDefinedRuntimeAttributes>
+                                                    <userDefinedRuntimeAttribute type="number" keyPath="appIconType">
+                                                        <integer key="value" value="15"/>
+                                                    </userDefinedRuntimeAttribute>
+                                                </userDefinedRuntimeAttributes>
+                                            </view>
+                                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="uqi-nq-6xv" customClass="AppIconView" customModule="IOSHomeScreen" customModuleProvider="target">
+                                                <rect key="frame" x="0.0" y="324" width="82.5" height="108"/>
+                                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                                <userDefinedRuntimeAttributes>
+                                                    <userDefinedRuntimeAttribute type="number" keyPath="appIconType">
+                                                        <integer key="value" value="7"/>
+                                                    </userDefinedRuntimeAttribute>
+                                                </userDefinedRuntimeAttributes>
+                                            </view>
+                                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="MHW-Nb-8O9" customClass="AppIconView" customModule="IOSHomeScreen" customModuleProvider="target">
+                                                <rect key="frame" x="0.0" y="432" width="82.5" height="108"/>
+                                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                                <userDefinedRuntimeAttributes>
+                                                    <userDefinedRuntimeAttribute type="number" keyPath="appIconType">
+                                                        <integer key="value" value="4"/>
+                                                    </userDefinedRuntimeAttribute>
+                                                </userDefinedRuntimeAttributes>
+                                            </view>
+                                        </subviews>
+                                    </stackView>
+                                    <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillEqually" translatesAutoresizingMaskIntoConstraints="NO" id="LSM-qH-E51">
+                                        <rect key="frame" x="262.5" y="0.0" width="82.5" height="540"/>
+                                        <subviews>
+                                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="lXz-LN-UUk" customClass="AppIconView" customModule="IOSHomeScreen" customModuleProvider="target">
+                                                <rect key="frame" x="0.0" y="0.0" width="82.5" height="108"/>
+                                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                                <userDefinedRuntimeAttributes>
+                                                    <userDefinedRuntimeAttribute type="number" keyPath="appIconType">
+                                                        <integer key="value" value="3"/>
+                                                    </userDefinedRuntimeAttribute>
+                                                </userDefinedRuntimeAttributes>
+                                            </view>
+                                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="SBU-2L-hQF" customClass="AppIconView" customModule="IOSHomeScreen" customModuleProvider="target">
+                                                <rect key="frame" x="0.0" y="108" width="82.5" height="108"/>
+                                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                                <userDefinedRuntimeAttributes>
+                                                    <userDefinedRuntimeAttribute type="number" keyPath="appIconType">
+                                                        <integer key="value" value="12"/>
+                                                    </userDefinedRuntimeAttribute>
+                                                </userDefinedRuntimeAttributes>
+                                            </view>
+                                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="4PE-ZO-LVZ" customClass="AppIconView" customModule="IOSHomeScreen" customModuleProvider="target">
+                                                <rect key="frame" x="0.0" y="216" width="82.5" height="108"/>
+                                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                                <userDefinedRuntimeAttributes>
+                                                    <userDefinedRuntimeAttribute type="number" keyPath="appIconType">
+                                                        <integer key="value" value="18"/>
+                                                    </userDefinedRuntimeAttribute>
+                                                </userDefinedRuntimeAttributes>
+                                            </view>
+                                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="9Yl-gL-v4V" customClass="AppIconView" customModule="IOSHomeScreen" customModuleProvider="target">
+                                                <rect key="frame" x="0.0" y="324" width="82.5" height="108"/>
+                                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                                <userDefinedRuntimeAttributes>
+                                                    <userDefinedRuntimeAttribute type="number" keyPath="appIconType">
+                                                        <integer key="value" value="0"/>
+                                                    </userDefinedRuntimeAttribute>
+                                                </userDefinedRuntimeAttributes>
+                                            </view>
+                                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="RvO-T2-zUL" customClass="AppIconView" customModule="IOSHomeScreen" customModuleProvider="target">
+                                                <rect key="frame" x="0.0" y="432" width="82.5" height="108"/>
+                                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                                <userDefinedRuntimeAttributes>
+                                                    <userDefinedRuntimeAttribute type="number" keyPath="appIconType">
+                                                        <integer key="value" value="23"/>
+                                                    </userDefinedRuntimeAttribute>
+                                                </userDefinedRuntimeAttributes>
+                                            </view>
+                                        </subviews>
+                                    </stackView>
+                                </subviews>
+                            </stackView>
+                            <visualEffectView opaque="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="4Wj-e5-Lwz">
+                                <rect key="frame" x="0.0" y="557" width="375" height="110"/>
+                                <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO" id="b7C-gr-7RB">
+                                    <rect key="frame" x="0.0" y="0.0" width="375" height="110"/>
+                                    <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                                    <subviews>
+                                        <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" spacing="-28" translatesAutoresizingMaskIntoConstraints="NO" id="ep5-W5-p4j">
+                                            <rect key="frame" x="0.0" y="10" width="375" height="100"/>
+                                            <subviews>
+                                                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Wa0-Kn-MCe" customClass="AppIconView" customModule="IOSHomeScreen" customModuleProvider="target">
+                                                    <rect key="frame" x="0.0" y="0.0" width="115" height="100"/>
+                                                    <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                                    <userDefinedRuntimeAttributes>
+                                                        <userDefinedRuntimeAttribute type="number" keyPath="appIconType">
+                                                            <integer key="value" value="22"/>
+                                                        </userDefinedRuntimeAttribute>
+                                                    </userDefinedRuntimeAttributes>
+                                                </view>
+                                                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="M6O-vf-akr" customClass="AppIconView" customModule="IOSHomeScreen" customModuleProvider="target">
+                                                    <rect key="frame" x="87" y="0.0" width="114.5" height="100"/>
+                                                    <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                                    <userDefinedRuntimeAttributes>
+                                                        <userDefinedRuntimeAttribute type="number" keyPath="appIconType">
+                                                            <integer key="value" value="16"/>
+                                                        </userDefinedRuntimeAttribute>
+                                                    </userDefinedRuntimeAttributes>
+                                                </view>
+                                                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Co7-m9-oze" customClass="AppIconView" customModule="IOSHomeScreen" customModuleProvider="target">
+                                                    <rect key="frame" x="173.5" y="0.0" width="115" height="100"/>
+                                                    <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                                    <userDefinedRuntimeAttributes>
+                                                        <userDefinedRuntimeAttribute type="number" keyPath="appIconType">
+                                                            <integer key="value" value="10"/>
+                                                        </userDefinedRuntimeAttribute>
+                                                    </userDefinedRuntimeAttributes>
+                                                </view>
+                                                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="lJW-iv-Ii8" customClass="AppIconView" customModule="IOSHomeScreen" customModuleProvider="target">
+                                                    <rect key="frame" x="260.5" y="0.0" width="114.5" height="100"/>
+                                                    <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                                    <userDefinedRuntimeAttributes>
+                                                        <userDefinedRuntimeAttribute type="number" keyPath="appIconType">
+                                                            <integer key="value" value="11"/>
+                                                        </userDefinedRuntimeAttribute>
+                                                    </userDefinedRuntimeAttributes>
+                                                </view>
+                                            </subviews>
+                                            <color key="backgroundColor" red="0.98186528497409331" green="0.98186528497409331" blue="0.98186528497409331" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        </stackView>
+                                    </subviews>
+                                    <constraints>
+                                        <constraint firstAttribute="trailing" secondItem="ep5-W5-p4j" secondAttribute="trailing" id="79A-tY-ECm"/>
+                                        <constraint firstItem="ep5-W5-p4j" firstAttribute="top" secondItem="b7C-gr-7RB" secondAttribute="top" constant="10" id="VXB-td-LoO"/>
+                                        <constraint firstAttribute="bottom" secondItem="ep5-W5-p4j" secondAttribute="bottom" id="aDg-AR-cmQ"/>
+                                        <constraint firstItem="ep5-W5-p4j" firstAttribute="leading" secondItem="b7C-gr-7RB" secondAttribute="leading" id="xpG-LW-AnB"/>
+                                    </constraints>
+                                </view>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="110" id="I82-5h-38F"/>
+                                </constraints>
+                                <blurEffect style="light"/>
+                            </visualEffectView>
+                        </subviews>
+                        <color key="backgroundColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="Wqg-gj-U9I" firstAttribute="leading" secondItem="E8X-o6-Qej" secondAttribute="leading" constant="15" id="2w9-An-R90"/>
+                            <constraint firstItem="4Wj-e5-Lwz" firstAttribute="top" secondItem="Wqg-gj-U9I" secondAttribute="bottom" constant="2" id="7rg-BZ-39m"/>
+                            <constraint firstAttribute="bottom" secondItem="4Wj-e5-Lwz" secondAttribute="bottom" id="E60-kF-ZXn"/>
+                            <constraint firstItem="Wqg-gj-U9I" firstAttribute="trailing" secondItem="E8X-o6-Qej" secondAttribute="trailing" constant="-15" id="K0f-cb-mtJ"/>
+                            <constraint firstItem="Wqg-gj-U9I" firstAttribute="top" secondItem="nKV-XU-oE9" secondAttribute="top" constant="15" id="PVv-Vs-yiq"/>
+                            <constraint firstItem="4Wj-e5-Lwz" firstAttribute="leading" secondItem="E8X-o6-Qej" secondAttribute="leading" id="l27-Tr-FC2"/>
+                            <constraint firstItem="E8X-o6-Qej" firstAttribute="trailing" secondItem="4Wj-e5-Lwz" secondAttribute="trailing" id="t1h-Rm-7Mm"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="E8X-o6-Qej"/>
+                    </view>
+                    <connections>
+                        <outlet property="globalstackView" destination="Wqg-gj-U9I" id="wjf-M1-IKI"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="nVF-iB-Xqo" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="32.799999999999997" y="14.842578710644679"/>
+        </scene>
+        <!--Test View Controller-->
+        <scene sceneID="K4E-Ov-ckR">
+            <objects>
+                <viewController storyboardIdentifier="TestViewController" id="hbB-Wl-y1j" customClass="TestViewController" customModule="IOSHomeScreen" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="SLj-4f-cVS">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Smp-Jr-ATL">
+                                <rect key="frame" x="112" y="258.5" width="150" height="149"/>
+                                <color key="backgroundColor" red="0.0" green="1" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="149" id="hCg-GY-4Tt"/>
+                                    <constraint firstAttribute="width" constant="150" id="trY-Q9-LBK"/>
+                                </constraints>
+                                <state key="normal" title="Back"/>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="string" keyPath="heroID" value="Go"/>
+                                    <userDefinedRuntimeAttribute type="boolean" keyPath="isHeroEnabled" value="YES"/>
+                                </userDefinedRuntimeAttributes>
+                                <connections>
+                                    <action selector="dismiss:" destination="hbB-Wl-y1j" eventType="touchUpInside" id="Dc9-VC-KWI"/>
+                                </connections>
+                            </button>
+                            <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="FVZ-oV-oT5">
+                                <rect key="frame" x="112.5" y="20" width="150" height="30"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="150" id="3qs-WR-gD8"/>
+                                </constraints>
+                                <nil key="textColor"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                        </subviews>
+                        <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="FVZ-oV-oT5" firstAttribute="top" secondItem="FWu-x9-cit" secondAttribute="top" id="7pm-b3-geB"/>
+                            <constraint firstItem="FVZ-oV-oT5" firstAttribute="centerX" secondItem="SLj-4f-cVS" secondAttribute="centerX" id="Ff5-eh-1OQ"/>
+                            <constraint firstItem="Smp-Jr-ATL" firstAttribute="centerY" secondItem="SLj-4f-cVS" secondAttribute="centerY" id="OOs-1B-9P5"/>
+                            <constraint firstItem="Smp-Jr-ATL" firstAttribute="centerX" secondItem="SLj-4f-cVS" secondAttribute="centerX" id="t71-Ix-GY2"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="FWu-x9-cit"/>
+                    </view>
+                    <userDefinedRuntimeAttributes>
+                        <userDefinedRuntimeAttribute type="boolean" keyPath="isHeroEnabled" value="YES"/>
+                    </userDefinedRuntimeAttributes>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="yb8-gP-Ldz" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="874" y="15"/>
+        </scene>
+    </scenes>
+</document>

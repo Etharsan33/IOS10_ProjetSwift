@@ -1,0 +1,25 @@
+
+// APP ICONS
+"FACETIME" = "Facetime";
+"CALENDAR" = "Calendrier";
+"PHOTOS" = "Photos";
+"WEATHER" = "Météo";
+"CLOCK" = "Horloge";
+"MAPS" = "Plan";
+"VIDEOS" = "Vidéos";
+"STOCKS" = "Bourse";
+"REMINDERS" = "Rappels";
+"NOTES" = "Notes";
+"NEWS" = "Journal";
+"ITUNES" = "iTunes Store";
+"APPSTORE" = "App Store";
+"IBOOKS" = "iBooks";
+"SETTINGS" = "Réglages";
+"WALLET" = "Wallet";
+"HEALTH" = "Santé";
+"MESSAGES" = "Messages";
+"MAIL" = "Mail";
+"SAFARI" = "Safari";
+"CAMERA" = "Appareil Photo";
+"MUSIC" = "Musique";
+"PHONE" = "Téléphone";

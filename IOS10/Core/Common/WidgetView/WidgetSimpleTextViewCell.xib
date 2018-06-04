@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="13771" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13772"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="none" indentationWidth="10" reuseIdentifier="WidgetSimpleTextViewCell" rowHeight="136" id="wW3-hz-ckk" customClass="WidgetSimpleTextViewCell" customModule="IOSHomeScreen" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="136"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="wW3-hz-ckk" id="XT7-ew-soc">
+                <rect key="frame" x="0.0" y="0.0" width="375" height="135.5"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <visualEffectView opaque="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="edf-uq-dSS">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="135.5"/>
+                        <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO" id="qqh-qd-7Yr">
+                            <rect key="frame" x="0.0" y="0.0" width="375" height="135.5"/>
+                            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        </view>
+                        <blurEffect style="light"/>
+                    </visualEffectView>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="FWb-AW-DhM" customClass="HeaderWidgetView" customModule="IOSHomeScreen" customModuleProvider="target">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="40"/>
+                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="40" id="CE9-3U-Ehb"/>
+                        </constraints>
+                    </view>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="BCVBgdfgfgdggd dfgfgf gdfg dfg dfg dfgdfgdf gdfggdg dgdf dfgdfg dgdfgdfg dgd gdf g" textAlignment="natural" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="JKh-bb-fNP">
+                        <rect key="frame" x="10" y="56" width="355" height="63.5"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                        <nil key="textColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                </subviews>
+                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                <constraints>
+                    <constraint firstItem="FWb-AW-DhM" firstAttribute="leading" secondItem="XT7-ew-soc" secondAttribute="leading" id="78c-Ae-IH2"/>
+                    <constraint firstItem="edf-uq-dSS" firstAttribute="leading" secondItem="XT7-ew-soc" secondAttribute="leading" id="8eV-1v-qZA"/>
+                    <constraint firstItem="JKh-bb-fNP" firstAttribute="leading" secondItem="XT7-ew-soc" secondAttribute="leading" constant="10" id="9v4-ks-ykb"/>
+                    <constraint firstAttribute="trailing" secondItem="JKh-bb-fNP" secondAttribute="trailing" constant="10" id="F6E-wf-5f0"/>
+                    <constraint firstAttribute="trailing" secondItem="edf-uq-dSS" secondAttribute="trailing" id="LFg-mw-clt"/>
+                    <constraint firstItem="JKh-bb-fNP" firstAttribute="top" secondItem="FWb-AW-DhM" secondAttribute="bottom" constant="16" id="Y1x-sI-cR2"/>
+                    <constraint firstItem="edf-uq-dSS" firstAttribute="top" secondItem="XT7-ew-soc" secondAttribute="top" id="ZaU-0v-nyX"/>
+                    <constraint firstAttribute="trailing" secondItem="FWb-AW-DhM" secondAttribute="trailing" id="a5p-Er-oad"/>
+                    <constraint firstItem="FWb-AW-DhM" firstAttribute="top" secondItem="XT7-ew-soc" secondAttribute="top" id="iiY-Qn-nlm"/>
+                    <constraint firstAttribute="bottom" secondItem="JKh-bb-fNP" secondAttribute="bottom" constant="16" id="ldK-iz-dWH"/>
+                    <constraint firstAttribute="bottom" secondItem="edf-uq-dSS" secondAttribute="bottom" id="xfi-XN-OqI"/>
+                </constraints>
+            </tableViewCellContentView>
+            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+            <point key="canvasLocation" x="35.5" y="-107"/>
+        </tableViewCell>
+    </objects>
+</document>

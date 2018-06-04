@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="13771" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13772"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Multi Task View Controller-->
+        <scene sceneID="xaL-tn-ZLi">
+            <objects>
+                <viewController restorationIdentifier="MultiTaskViewController" storyboardIdentifier="MultiTaskViewController" modalTransitionStyle="crossDissolve" modalPresentationStyle="overCurrentContext" id="MsY-Ax-jwK" customClass="MultiTaskViewController" customModule="IOSHomeScreen" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="Yee-V7-DWM">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <visualEffectView opaque="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="WEz-NC-H5s">
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                                <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO" id="Jpe-OQ-a8N">
+                                    <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                                    <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                                    <subviews>
+                                        <collectionView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" showsHorizontalScrollIndicator="NO" showsVerticalScrollIndicator="NO" dataMode="prototypes" translatesAutoresizingMaskIntoConstraints="NO" id="cTP-hg-OOV">
+                                            <rect key="frame" x="50" y="68" width="275" height="540"/>
+                                            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                            <collectionViewFlowLayout key="collectionViewLayout" minimumLineSpacing="10" minimumInteritemSpacing="10" id="mhG-HV-SfC">
+                                                <size key="itemSize" width="50" height="50"/>
+                                                <size key="headerReferenceSize" width="0.0" height="0.0"/>
+                                                <size key="footerReferenceSize" width="0.0" height="0.0"/>
+                                                <inset key="sectionInset" minX="0.0" minY="0.0" maxX="0.0" maxY="0.0"/>
+                                            </collectionViewFlowLayout>
+                                            <cells/>
+                                            <connections>
+                                                <outlet property="dataSource" destination="MsY-Ax-jwK" id="b6J-Xt-5PM"/>
+                                                <outlet property="delegate" destination="MsY-Ax-jwK" id="XfP-8X-WDo"/>
+                                            </connections>
+                                        </collectionView>
+                                    </subviews>
+                                    <constraints>
+                                        <constraint firstItem="cTP-hg-OOV" firstAttribute="top" secondItem="Jpe-OQ-a8N" secondAttribute="top" constant="68" id="6a9-Wi-6o3"/>
+                                        <constraint firstItem="cTP-hg-OOV" firstAttribute="leading" secondItem="Jpe-OQ-a8N" secondAttribute="leading" constant="50" id="8RM-Zg-WLr"/>
+                                        <constraint firstAttribute="bottom" secondItem="cTP-hg-OOV" secondAttribute="bottom" constant="59" id="lXB-jA-VaY"/>
+                                        <constraint firstAttribute="trailing" secondItem="cTP-hg-OOV" secondAttribute="trailing" constant="50" id="nOL-Va-vcj"/>
+                                    </constraints>
+                                </view>
+                                <blurEffect style="light"/>
+                            </visualEffectView>
+                        </subviews>
+                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="WEz-NC-H5s" firstAttribute="trailing" secondItem="KWe-1V-7lI" secondAttribute="trailing" id="0rJ-Z6-1YR"/>
+                            <constraint firstItem="WEz-NC-H5s" firstAttribute="leading" secondItem="KWe-1V-7lI" secondAttribute="leading" id="3fB-s4-fbJ"/>
+                            <constraint firstItem="WEz-NC-H5s" firstAttribute="bottom" secondItem="KWe-1V-7lI" secondAttribute="bottom" id="Yvw-ky-81q"/>
+                            <constraint firstItem="WEz-NC-H5s" firstAttribute="top" secondItem="Yee-V7-DWM" secondAttribute="top" id="oYc-x4-x43"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="KWe-1V-7lI"/>
+                    </view>
+                    <connections>
+                        <outlet property="collectionView" destination="cTP-hg-OOV" id="MUn-NK-mAV"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="sWU-uu-aSR" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="133.59999999999999" y="108.39580209895054"/>
+        </scene>
+    </scenes>
+</document>
